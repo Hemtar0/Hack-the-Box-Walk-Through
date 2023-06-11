@@ -1,8 +1,9 @@
 # GetSimple Write-up w/o Metasploit
 
 Hi everyone, This is my first write-up for hack the box platform after completing the "Getting started Module" or "GetSimpe CMS" Machine .
+I have called it "GetSimple CMS" since it hasn't a name and it was running GetSimple Content Management System at the time of this write-up.
 
-So lets dive in the penetration test process:
+So lets dive in the penetration process for this machine:
 
 ## Reconnaissance:
 
