@@ -110,7 +110,7 @@ curl -s $ip/robots.txt
 
 Mmmm interesting, we found a hidden directory with admin name, before investigating it lets head over to the web site and navigate its pages as follow:
 
-![home.png](../Assets/home.png)
+![home.png](./Assets/home.png)
 
 Moving around all aspects of the page and try to find any interesting information , we found a [Download Latest GetSimple](http://get-simple.info/download "Download GetSimple CMS") link exist on the right side of the page which redirected us to GetSimple CMS Download page,in which we can download the latest version 3.3.16 or previous versions.
 
