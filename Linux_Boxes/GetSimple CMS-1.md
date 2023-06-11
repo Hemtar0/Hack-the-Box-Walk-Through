@@ -186,11 +186,11 @@ gobuster dir -u $ip -w /usr/share/wordlists/dirb/common.txt -o ./scan/gobuster.l
 
 We found few paths that are interesting: data,backups and admin. so lets head over to the following path: http://10.129.181.169/admin/ (Default port 80)
 
-![admin.png](../_resources/admin.png)
+![admin.png](./Assets/admin.png)
 
 Next, let try few default credentials ("admin/admin","root/root") before brute forcing the login page and hence we luckily found one ("admin/admin").
 
-![pages.png](../_resources/pages.png)
+![pages.png](./Assets/pages.png)
 
 From the login page, we have noticed that the version of the CMS is 3.3.15. So it may be vulnerable and this vulnerability may be publicly discovered and exploited.
 
@@ -261,7 +261,7 @@ Googling the product name and version, we found that its subjected to the follow
 
 After finding the details of the existing code execution vulnerability and navigate through all tabs of the login page, we found our code execution vulnerability in the Theme tab / Theme Editor.
 
-![shell.png](../_resources/shell.png)
+![shell.png](./Assets/shell.png)
 
 ## Gaining a Foothold:
 
